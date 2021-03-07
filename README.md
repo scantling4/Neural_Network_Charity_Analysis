@@ -1,7 +1,12 @@
 # Neural_Network_Charity_Analysis
 
 ## Overview 
-Alphabet Soup is a nonprofit foundation that has donated over 10 billion dollars over the past twenty years. The purpose of this analysis is to create a binary classifier neural network to decide which companies that Alphabet Soup should invest in and which ones are too high risk. The ultimate goal is to create a data-driven solution to make these predictions with consistent accuracy. Python's TensorFlow library is utilized. 
+Alphabet Soup is a nonprofit foundation that has donated over 10 billion dollars over the past twenty years to various organizations. The purpose of this analysis is to create a binary classifier neural network to decide which companies that Alphabet Soup should invest in and which ones are too high risk. The ultimate goal is to create a data-driven solution to make these predictions with consistent accuracy. 
+
+### Tools
+- TensorFlow 
+- skikitlearn
+- Python/Pandas
 
 ## Results 
 
