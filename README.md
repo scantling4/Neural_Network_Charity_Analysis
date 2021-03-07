@@ -14,7 +14,7 @@ Alphabet Soup is a nonprofit foundation that has donated over 10 billion dollars
 The target variable for this analysis is the "IS_SUCCESSFUL" column which is coded in 0's and 1's and shows if a particular nonprofit utilized their money effectively. The "EIN" and "NAME" columns were removed because they have no bearing on the target variable. The rest of the columns became features for the model. 
 
 ### Compiling, Training, and Evaluating the Model 
-The first model that I created had 12 neurons in the first layer and 6 in the second layer. Both of the layers had relu activation functions and the output layer had a sigmoid activation function. I initially began with these parameters because reul handles nonlinear data better. I chose to have two layers because the second layer allows the inputs from the first layer to be reweighted. 
+The first model that I created had 12 neurons in the first layer and 6 in the second layer. Both of the layers implemented the relu activation function and the output layer implemented the sigmoid activation function. I initially began with these parameters because relu handles nonlinear data better than the sigmoid activation function. I chose to have two layers because the second layer allows the inputs from the first layer to be reweighted. 
 Performance metrics from my first model: 
 ![model 1](/model_1.png)
 
